@@ -1,2 +1,3 @@
-# prge_wig21gg1s0
-Tutorial for building sparial data application
+# GEOPORTAL
+
+This will be geoportal based on 3-tier architecture with frontend(reactJs), geoserver (Geoserver)and database (PostGIS).
