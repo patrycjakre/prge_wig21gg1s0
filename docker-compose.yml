@@ -7,7 +7,7 @@ services:
     image: "react-frontend"
     container_name: "react-frontend"
     volumes:
-      - ./config/note/frontend/src:/app/src
+      - ./config/node/frontend/src:/app/src
     ports:
       - 3000:3000
     environment:
