@@ -1,3 +1,6 @@
+import React from "react";
+
+import { Link } from "react-router-dom";
 import "./Home.css";
 import zdjecie from "./01_mapa_wat.png";
 
@@ -16,7 +19,10 @@ function Home() {
           <div className="home_subtitle">
             Strona internetowa z interaktywną mapą
           </div>
-          <button className="home_button">WCHODZĘ</button>
+
+          <Link to="services">
+            <button className="home_button">WCHODZĘ</button>
+          </Link>
         </div>
       </div>
     </div>
